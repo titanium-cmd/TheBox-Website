@@ -209,3 +209,57 @@ main>section:nth-child(3) button {
   border-radius: 2px;
   padding: 16px 20px 16px 20px;
 }
+
+/* SERVICES SECTION */
+main>section:nth-child(4) {
+  background-color: var(--custom-black-50);
+  padding: 3rem 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+main>section:nth-child(4)>h1 {
+  color: var(--custom-black-800);
+  font-size: 36px;
+  text-align: center;
+}
+
+div[id="services-container"] {
+  margin: 36px 8.5rem;
+  text-align: center;
+  display: grid;
+  gap: 100px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+div[id="services-container"]>div {
+  padding: 38px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+div[id="services-container"] hr {
+  margin: 20px auto;
+  width: 60px;
+}
+
+div[id="services-container"]>div:nth-child(even) {
+  background-color: var(--primary);
+  color: white;
+}
+
+div[id="services-container"]>div:nth-child(odd) {
+  color: var(--primary);
+  background-color: white;
+}
+
+div[id="services-container"]>div:nth-child(odd)>hr {
+  color: var(--primary);
+  background-color: white;
+}
+
+div[id="services-container"]>div:nth-child(even)>hr {
+  background-color: var(--primary);
+  color: white;
+}
