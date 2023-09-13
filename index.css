@@ -1,0 +1,161 @@
+:root {
+  --custom-black-800: #292E3D;
+  --custom-black-700: #3D445C;
+  --custom-black-100: #E0E3EB;
+  --custom-black-400: #858EAD;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#logo-component {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+
+#logo-component img:nth-child(2) {
+  margin-left: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 2rem;
+}
+
+ul {
+  display: flex;
+}
+
+header ul li {
+  list-style-type: none;
+  padding: 1rem;
+}
+
+header ul li:last-child a {
+  color: #F9995D;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main>section:nth-child(1) {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./assets/imgs/building.jpeg');
+}
+
+main>section:nth-child(1)>h1 {
+  color: var(--custom-black-800);
+  font-size: 72px;
+  margin: 0 0 5rem 4rem;
+  font-weight: 500;
+}
+
+#feature-container {
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #3559C7;
+  height: 150px;
+  width: 400px;
+  align-self: flex-end
+}
+
+#feature-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#feature-content>h4 {
+  margin: 0.8rem 0px;
+}
+
+#feature-btns {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+}
+
+#feature-btns>button {
+  width: 50%;
+  background-color: var(--custom-black-800);
+  border: 0px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#feature-btns>button>span {
+  margin: 0px 0.5rem;
+}
+
+#feature-btns>button:nth-child(1) {
+  border-right: 1px solid white;
+}
+
+#feature-btns>button:nth-child(2) {
+  border-left: 1px solid white;
+}
+
+main>section:nth-child(2) {
+  padding: 3rem 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+main>section:nth-child(2)>h1 {
+  color: var(--custom-black-800);
+  font-size: 36px;
+  text-align: center;
+}
+
+div[id="reputation-container"]>div {
+  border: 1px solid var(--custom-black-100);
+  border-radius: 4px;
+  max-width: 25%;
+  color: var(--custom-black-400);
+  padding: 20px;
+}
+
+div[id="reputation-container"]>div>h4 {
+  color: var(--custom-black-700);
+  font-weight: 700;
+  font-size: 20px;
+  margin: 1rem 0px;
+}
+
+div[id="reputation-container"]>div>p{
+  font-size: 16px;
+}
+
+div[id="reputation-container"] {
+  display: flex;
+  margin: 3rem 5rem;
+  max-width: 100%;
+  justify-content: space-evenly;
+}
