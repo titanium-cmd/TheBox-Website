@@ -1,8 +1,13 @@
 :root {
+  --custom-black-900: #14171F;
   --custom-black-800: #292E3D;
   --custom-black-700: #3D445C;
-  --custom-black-100: #E0E3EB;
   --custom-black-400: #858EAD;
+  --custom-black-100: #E0E3EB;
+  --custom-black-50: #F6F8F7;
+  --secondary: #F9995D;
+  --primary: #2947A9;
+  --custom-blue: #3559C7;
 }
 
 html {
@@ -47,12 +52,13 @@ header ul li {
 }
 
 header ul li:last-child a {
-  color: #F9995D;
+  color: var(--secondary);
+  font-weight: 600;
 }
 
 header ul li a {
   text-decoration: none;
-  color: black;
+  color: var(--custom-black-900);
 }
 
 main>section:nth-child(1) {
@@ -77,7 +83,7 @@ main>section:nth-child(1)>h1 {
   text-align: center;
   display: flex;
   flex-direction: column;
-  background-color: #3559C7;
+  background-color: var(--custom-blue);
   height: 150px;
   width: 400px;
   align-self: flex-end
@@ -122,6 +128,7 @@ main>section:nth-child(1)>h1 {
   border-left: 1px solid white;
 }
 
+/* REPUTATION SECTION */
 main>section:nth-child(2) {
   padding: 3rem 0px;
   display: flex;
@@ -149,7 +156,7 @@ div[id="reputation-container"]>div>h4 {
   margin: 1rem 0px;
 }
 
-div[id="reputation-container"]>div>p{
+div[id="reputation-container"]>div>p {
   font-size: 16px;
 }
 
@@ -158,4 +165,47 @@ div[id="reputation-container"] {
   margin: 3rem 5rem;
   max-width: 100%;
   justify-content: space-evenly;
+}
+
+/* ABOUT US SECTION */
+main>section:nth-child(3) {
+  padding: 3rem;
+  position: relative;
+}
+
+main>section:nth-child(3) img {
+  max-height: 700px;
+  max-width: 900px;
+}
+
+main>section:nth-child(3) p {
+  font-weight: 300;
+  line-height: 23.46px;
+  letter-spacing: 1px;
+}
+
+main>section:nth-child(3) h1 {
+  font-size: 36px;
+  margin: 0 0 2rem;
+  font-weight: 700;
+}
+
+main>section:nth-child(3) div {
+  position: absolute;
+  top: 10rem;
+  right: 10rem;
+  max-width: 500px;
+  border-radius: 2px;
+  background-color: var(--primary);
+  color: white;
+  padding: 40px;
+}
+
+main>section:nth-child(3) button {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 18px;
+  border: 2px solid var(--primary);
+  border-radius: 2px;
+  padding: 16px 20px 16px 20px;
 }
