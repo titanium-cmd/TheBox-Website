@@ -176,7 +176,7 @@ main>section:nth-child(3) {
 
 main>section:nth-child(3) img {
   max-height: 700px;
-  max-width: 900px;
+  max-width: 70%;
 }
 
 main>section:nth-child(3) p {
