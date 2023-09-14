@@ -2,6 +2,7 @@
   --custom-black-900: #14171F;
   --custom-black-800: #292E3D;
   --custom-black-700: #3D445C;
+  --custom-black-600: #525B7A;
   --custom-black-400: #858EAD;
   --custom-black-100: #E0E3EB;
   --custom-black-50: #F6F8F7;
@@ -262,4 +263,42 @@ div[id="services-container"]>div:nth-child(odd)>hr {
 div[id="services-container"]>div:nth-child(even)>hr {
   background-color: var(--primary);
   color: white;
+}
+
+/* EXPERIENCE */
+main>section:nth-child(5) {
+  display: flex;
+  border: 1px solid red;
+}
+
+main>section:nth-child(5) div:nth-of-type(1) {
+  border: 1px solid teal;
+  width: 80vw;
+}
+
+main>section:nth-child(5) div:nth-of-type(2) {
+  padding: 5rem;
+  /* border: 1px solid green; */
+}
+
+main>section:nth-child(5) div:nth-of-type(2) p {
+  color: var(--custom-black-600);
+  line-height: 23.46px;
+  letter-spacing: 1px;
+}
+
+main>section:nth-child(5) div:nth-of-type(2) button {
+  background-color: var(--primary);
+  padding: 16px 40px 16px 40px;
+  border-radius: 2px;
+  border: 0px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+main>section:nth-child(5) h1 {
+  color: var(--primary);
+  font-size: 60px;
+  font-weight: 700;
 }
