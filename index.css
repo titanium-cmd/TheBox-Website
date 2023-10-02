@@ -280,7 +280,7 @@ main>section:nth-child(5) {
 
 #stats {
   position: relative;
-  padding: 30px;
+  padding: 270px 30px;
 }
 
 #stats article {
@@ -324,13 +324,13 @@ main>section:nth-child(5) {
 }
 
 #years-stats {
-  top: 320px;
+  bottom: 70px;
   left: 180px;
 }
 
 #years-stats img {
   position: absolute;
-  bottom: -10px;
+  bottom: -25px;
   right: -50px;
 }
 
