@@ -1,0 +1,38 @@
+/* tablet screens */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  #call-to-action {
+    display: block;
+  }
+
+  #call-to-action button {
+    margin-top: 50px;
+  }
+
+  /* EXPERIENCE */
+  main>section:nth-child(5) {
+    display: block;
+  }
+
+  div[id="services-container"] {
+    margin: 0;
+    border: 1px solid red;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* mobile screens */
+@media screen and (max-width: 767px) {
+  #call-to-action {
+    display: block;
+  }
+
+  #call-to-action button {
+    margin-top: 50px;
+  }
+
+  /* EXPERIENCE */
+  main>section:nth-child(5) {
+    display: block;
+  }
+}
