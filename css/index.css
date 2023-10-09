@@ -84,6 +84,13 @@ header ul li:last-child a {
   font-weight: 600;
 }
 
+header svg{
+  display: none;
+  margin-top: 10px;
+  height: 2rem;
+  width: 2rem;
+}
+
 header ul li a {
   text-decoration: none;
   color: var(--custom-black-900);
