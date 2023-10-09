@@ -16,12 +16,20 @@ html {
   scroll-behavior: smooth;
 }
 
+p {
+  font-size: 1rem;
+}
+
 h1 {
   font-size: 4.5rem;
 }
 
 h2 {
   font-size: 2.25rem;
+}
+
+h4 {
+  font-size: 1.25rem;
 }
 
 button {
@@ -82,7 +90,6 @@ header ul li a {
 }
 
 main {
-  border: 1px solid teal;
   width: 100%;
 }
 
@@ -90,7 +97,6 @@ main>section:nth-child(1) {
   height: 600px;
   display: flex;
   width: 100%;
-  border: 1px solid red;
   flex-direction: column;
   justify-content: flex-end;
   background-repeat: no-repeat;
@@ -172,12 +178,7 @@ div[id="reputation-container"]>div {
 div[id="reputation-container"]>div>h4 {
   color: var(--custom-black-700);
   font-weight: 700;
-  font-size: 1.25rem;
   margin: 1rem 0px;
-}
-
-div[id="reputation-container"]>div>p {
-  font-size: 1rem;
 }
 
 div[id="reputation-container"] {
@@ -249,7 +250,6 @@ div[id="services-container"] {
 
 div[id="services-container"]>div {
   padding: 2.38rem 0;
-  font-size: 1.25rem;
   font-weight: 600;
   border-radius: 4px;
 }
