@@ -152,6 +152,8 @@ main>section:nth-child(1)>h1 {
   border: 0px;
   color: white;
   display: flex;
+  align-items: center;
+  justify-content: center;
   justify-content: center;
   padding: 0.6rem;
 }
@@ -460,4 +462,31 @@ main>section:nth-child(5) h1 {
 
 #projects-showcase article img {
   width: 100%;
+}
+
+#projects-showcase>#feature-btns button {
+  padding: 1rem 0;
+}
+
+#projects-showcase>#feature-btns {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#indicator-container {
+  display: flex;
+  margin: auto 5rem;
+  align-items: center;
+}
+
+#indicator-container>div {
+  height: 16px;
+  width: 16px;
+  margin: 0px 0.5rem;
+  border-radius: 16px;
+  background-color: var(--custom-black-100);
+}
+
+.active-indicator {
+  background-color: var(--primary) !important;
 }
