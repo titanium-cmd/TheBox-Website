@@ -18,6 +18,10 @@ html {
   scroll-behavior: smooth;
 }
 
+button {
+  cursor: pointer;
+}
+
 p {
   font-size: 1rem;
 }
@@ -52,14 +56,6 @@ select {
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 10px;
-}
-
-select option {
-  color: var(--custom-black-300) !important;
-}
-
-select::after {
-  margin: 10px;
 }
 
 h4 {
@@ -416,7 +412,8 @@ main>section:nth-child(5) div:nth-of-type(2) p {
   letter-spacing: 1px;
 }
 
-main>section:nth-child(5) div:nth-of-type(2) button, form button {
+main>section:nth-child(5) div:nth-of-type(2) button,
+form button {
   background-color: var(--primary);
   padding: 1rem 2.5rem 1rem 2.5rem;
   border-radius: 2px;
@@ -553,7 +550,58 @@ main>section:nth-child(5) h1 {
   margin: 0px 0.8rem;
 }
 
-form button{
+form button {
   margin-top: 1.5rem;
   width: 40%;
+}
+
+footer section:nth-child(1) {
+  width: 50%;
+  display: inline-block;
+  padding: 3rem 0 3rem 5.5rem;
+}
+
+footer span {
+  color: var(--primary);
+  width: 90px;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+footer section:nth-child(1) p {
+  color: var(--custom-black-800);
+}
+
+footer section:nth-child(3) {
+  color: white;
+  padding: 1rem 5.5rem;
+  background-color: var(--primary);
+}
+
+footer section:nth-child(2) {
+  width: 35%;
+  display: inline-block;
+  padding: 3rem 5.5rem 3rem 0;
+}
+
+#newsletter-container div {
+  display: flex;
+}
+
+#newsletter-container div input {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+#newsletter-container div button {
+  border: none;
+  color: white;
+  padding: 0 2rem;
+  border-radius: 4px;
+  background-color: var(--secondary);
+}
+
+.image-button {
+  margin-right: 1rem;
 }
