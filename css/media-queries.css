@@ -1,6 +1,7 @@
 /* tablet screens */
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   #call-to-action {
+    padding: 3rem;
     display: block;
   }
 
@@ -11,6 +12,10 @@
   /* EXPERIENCE */
   main>section:nth-child(5) {
     display: block;
+  }
+
+  main>section:nth-child(5) div:nth-of-type(2) {
+    padding: 3rem;
   }
 
   div[id="services-container"] {
@@ -46,6 +51,46 @@
   div[id="reputation-container"]>div {
     max-width: 100%;
     margin-top: 3rem;
+  }
+
+  #projects-section {
+    display: block;
+    padding: 2rem;
+  }
+
+  #projects-section ul {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0rem;
+  }
+
+  #projects-section ul li {
+    display: inline-block;
+  }
+
+  #projects-showcase article {
+    margin: 2rem 0;
+  }
+
+  #contact-section {
+    padding: 3rem;
+  }
+
+  footer section:nth-child(1) {
+    width: 45%;
+    display: inline-block;
+    padding: 0rem 0 3rem 3rem;
+  }
+
+  footer section:nth-child(1) p {
+    margin: 0.2rem 0;
+  }
+
+  footer section:nth-child(2) {
+    width: 35%;
+    border: 1px solid;
+    margin-top: 2rem;
+    padding: 0rem 5.5rem 0rem 0;
   }
 }
 
