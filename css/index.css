@@ -12,6 +12,7 @@
   --secondary: #F9995D;
   --primary: #2947A9;
   --custom-blue: #3559C7;
+  --custom-red: #C40303;
 }
 
 html {
@@ -56,6 +57,10 @@ select {
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 10px;
+}
+
+option{
+  color: var(--custom-black-400);
 }
 
 h4 {
@@ -541,6 +546,11 @@ main>section:nth-child(5) h1 {
 
 #contact-section form p {
   margin: -8px 0.8rem;
+  color: var(--custom-black-500);
+}
+
+#contact-section form p span{
+  color: var(--custom-red);
 }
 
 #contact-section form input,
