@@ -96,6 +96,10 @@
 
 /* mobile screens */
 @media screen and (max-width: 767px) {
+  nav {
+    display: none;
+  }
+
   h1 {
     font-size: 3rem !important;
   }
@@ -125,10 +129,6 @@
   main>section:nth-child(1)>h1 {
     margin: 0 1rem 5rem 1rem;
     text-align: center;
-  }
-
-  nav {
-    display: none;
   }
 
   header svg {
@@ -310,7 +310,6 @@
     display: block;
     padding: 2rem;
   }
-
 
   #newsletter-container div button {
     padding: 0 1rem;

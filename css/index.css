@@ -59,10 +59,6 @@ select {
   background-position-y: 10px;
 }
 
-option{
-  color: var(--custom-black-400);
-}
-
 h4 {
   font-size: 1.25rem;
 }
@@ -549,7 +545,7 @@ main>section:nth-child(5) h1 {
   color: var(--custom-black-500);
 }
 
-#contact-section form p span{
+#contact-section form p span {
   color: var(--custom-red);
 }
 
